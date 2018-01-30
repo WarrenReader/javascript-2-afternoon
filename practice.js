@@ -54,7 +54,7 @@ favoriteThings.brand = "Hostess";
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
 
 
 ////////// PROBLEM 3 //////////
