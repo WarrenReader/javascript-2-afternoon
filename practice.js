@@ -125,7 +125,7 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+var methodCollection = {};
 
 
 /*
@@ -134,7 +134,12 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+methodCollection.alertHello = x => alert("hello");
 
+
+methodCollection.logHello = function () {
+  console.log('hello');
+}
 
 
 /*
@@ -142,7 +147,8 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
