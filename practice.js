@@ -159,7 +159,14 @@ methodCollection.logHello();
 */
 
 //Code Here
-
+function makePerson(name,birthday,ssn){
+  var obj = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  };
+  return
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -170,5 +177,12 @@ methodCollection.logHello();
 */
 
 //Code Here
-
+var makeCard = function (cardNumber, expirationDate, securityCode) {
+  var creditCard = {
+    cardNumber: cardNumber,
+    exirationDate: expirationDate,
+    securityCode: securityCode
+  };
+  return creditCard;
+}
 
